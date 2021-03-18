@@ -26,6 +26,8 @@ public class RailFlagEncoderFactory implements FlagEncoderFactory {
         properties.putObject(RailFlagEncoder.GAUGES, config.getGauges());
         properties.putObject(RailFlagEncoder.MAXSPEED, config.getMaxspeed());
         properties.putObject(RailFlagEncoder.SPEED_FACTOR, config.getSpeedFactor());
+        properties.putObject(RailFlagEncoder.ACCEPT_YARD_SPUR, config.getYardSpur());
+        
         return properties;
     }
 
